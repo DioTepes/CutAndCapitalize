@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.main {
+	background-color: #223240;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+}
+
+.titleH1 {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Noto Serif', serif;
+	font-size: 3rem;
+	text-decoration: underline #60bf81;
+	letter-spacing: 3px;
+}
+
+.label {
+	color: #fff;
+	font-size: 1.2rem;
+	margin: 3vh, 0;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+}
+
+.input {
+	border-radius: 3px;
+	border-color: #60bf81;
+	border-style: outset, 0px, 5px, 5px, 0px;
+	background-color: #575757;
+	width: 100vh;
+	font-family: 'Poppins', sans-serif;
+	height: 5vh;
+	margin-top: 1vh;
+	margin-bottom: 2.5vh;
+	padding: 8px;
+	color: #fff;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+}
+
+.input::placeholder {
+	color: #fff;
+	opacity: 0.8;
+}
+
+.divbtn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.btnTitle {
+	cursor: pointer;
+	color: #fff;
+	background-color: #347355;
+	background-image: linear-gradient(to left, #367356, #60bf81);
+	border-color: #60bf81;
+	border-radius: 3px;
+	border-style: outset, 0px, 5px, 5px, 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	margin-top: 1vh;
+	margin-bottom: 2.5vh;
+	padding: 5px;
+	width: 10vh;
+}
+
+.btnTitle:hover {
+	cursor: pointer;
+	background-image: linear-gradient(to right, #367356, #60bf81);
+	border-color: #4fff8c;
+	border-style: inset, 0px, 5px, 5px, 0px;
+	transition: all 300ms ease-in-out;
+}
+
+#caracters {
+	width: 25vh;
+}
+
+#caracters::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
