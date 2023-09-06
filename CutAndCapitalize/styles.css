@@ -12,7 +12,7 @@
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
-	width: 100%;
+	width: 100vw;
 }
 
 .titleH1 {
@@ -26,11 +26,15 @@
 	text-decoration: underline #60bf81;
 	letter-spacing: 3px;
 }
+.divlabelAndInputs {
+	height: 50vh;
+	width: 50vw;
+}
 
 .label {
 	color: #fff;
 	font-size: 1.2rem;
-	margin: 3vh, 0;
+	margin: 5%, 0;
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: 1px;
 }
@@ -40,11 +44,11 @@
 	border-color: #60bf81;
 	border-style: outset, 0px, 5px, 5px, 0px;
 	background-color: #575757;
-	width: 100vh;
+	width: 100%;
 	font-family: 'Poppins', sans-serif;
-	height: 5vh;
-	margin-top: 1vh;
-	margin-bottom: 2.5vh;
+	height: 10%;
+	margin-top: 1%;
+	margin-bottom: 3%;
 	padding: 8px;
 	color: #fff;
 	font-size: 0.9rem;
@@ -53,14 +57,15 @@
 
 .input::placeholder {
 	color: #fff;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 .divbtn {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	display: inline-flex;
+	height: 5.4vh;
+	width: 3vw;
+	margin-left: 1%;
+	margin-bottom: 1%;
 }
 
 .btnTitle {
@@ -73,10 +78,9 @@
 	border-style: outset, 0px, 5px, 5px, 0px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
-	margin-top: 1vh;
-	margin-bottom: 2.5vh;
-	padding: 5px;
-	width: 10vh;
+	height: 100%;
+	padding: 5%;
+	width: 100%;
 }
 
 .btnTitle:hover {
@@ -88,11 +92,17 @@
 }
 
 #caracters {
-	width: 25vh;
+	width: 16%;
+	margin-left: 1%;
 }
 
 #caracters::-webkit-outer-spin-button,
 ::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
+}
+
+#hlCarac {
+	color: #4fff8c;
+	display: inline-flex;
 }

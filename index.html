@@ -11,7 +11,7 @@
 			<div>
 				<h1 class="titleH1">Cut & Capitalize</h1>
 			</div>
-			<div class="labelAndInputs">
+			<div class="divlabelAndInputs">
 				<label class="label" for="texto">Title</label> <br />
 				<input
 					type="text"
@@ -20,13 +20,21 @@
 					placeholder="Insert the text to be fixed"
 				/>
 				<br />
-				<label class="label" for="caracters">Cut caracters</label>
-				<br />
-				<input type="number" class="input" id="caracters" />
-				<br />
+				<label class="label" for="caracters"
+					>How many
+					<p id="hlCarac">Caracters</p>
+					do you want to cut?</label
+				>
+				<input
+					type="number"
+					class="input"
+					id="caracters"
+					placeholder="Ex: 28"
+				/>
 				<div class="divbtn">
 					<button class="btnTitle" onclick="capitalizeWords()">GO</button>
 				</div>
+				<br />
 				<label class="label" id="labelFirstCaracters" for="firstCaracters"
 					>Title Cutted</label
 				>
